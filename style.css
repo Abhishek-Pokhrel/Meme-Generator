@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(13, 68, 80, 0.85) 0%, rgba(0, 0, 0, 0.55) 100%);
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin-top: 5px;
+}
+
+nav li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#title{
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: white;
+    width: 15%;
+    margin-left: 95px;
+    line-height: 38px;
+    
+}
+
+#about{
+    font-size: 25px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-right: 95px;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.generate{
+    width: 160px;
+    height: 55px;
+}
+
+.meme-frame{
+    background-color: #D9D9D9;
+    width: 450px;
+    height: 470px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.link{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.meme-image{
+    width: 420px;
+    height: 380px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+}
+.meme-image img{
+    object-fit: contain;
+    max-width: 100%;
+    /* max-height: 100%; */
+    border-radius: 10px;
+}
+
+.meme-caption{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+}
+
+.meme-content{
+    border: 1px solid black;
+    display: flex;
+}
+
+
